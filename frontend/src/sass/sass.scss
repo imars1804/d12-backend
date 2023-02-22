@@ -1,0 +1,94 @@
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.form-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    padding: 2em;
+    margin: 1em;
+    h2 {
+        text-align: center;
+        color: #c23434;
+    }
+    form {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        input {
+            margin: 1em;
+        }
+    }
+}
+.form-field {
+    width: 22em;
+}
+.products {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    padding: 2em;
+    margin: 1em;
+    width: 40em;
+    h2 {
+        text-align: center;
+        color: #c23434;
+    }
+}
+.product {
+    background-color: aquamarine;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    img {
+        width: 5em;
+        height: 5em;
+        margin: 1em;
+    }
+    h4 {
+        font-size: 2em;
+    }
+    p {
+        font-weight: bold;
+        color: crimson;
+    }
+}
+
+.chat-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+    padding: 2em;
+    margin: 1em;
+    width: 40em;
+    h2 {
+        text-align: center;
+        color: #c23434;
+    }
+    form {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.message-item {
+    display: flex;
+    background-color: aliceblue;
+    font-weight: bold;
+    img {
+        width: 5em;
+        height: 5em;
+    }
+}
